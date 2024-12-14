@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project 5</title>
+        <!-- AOS library -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <!-- Font Op3n Sans + Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- reset css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- css -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- LOGO -->
+                    <a href="#!"
+                        ><img
+                            src="./assets/img/bank-logo.svg"
+                            alt=""
+                            class="logo"
+                    /></a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar__link">Home</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar__link">Products</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar__link">Features</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar__link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Header Action -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__link">Log in</a>
+                        <a href="#!" class="btn header-action__btn btn--trans"
+                            ><span>Sign up</span></a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <!-- Hero Content -->
+                    <section class="hero__content">
+                        <p class="hero__name section__mini-desc">
+                            Digital Smart Wallet
+                        </p>
+                        <h1 class="hero__title section__heading">
+                            Digital
+                            <strong class="hero__high-light">Payment</strong>
+                            For Everyone.
+                        </h1>
+                        <p class="section__desc hero__desc">
+                            We bring together everything that’s required to
+                            build websites and apps that accept payments and
+                            send payouts globally. We are the best platform.
+                        </p>
+                        <form action="" class="search-form">
+                            <div class="search-form__input-wrap">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="search-form__input"
+                                    class="search-form__input section__mini-desc"
+                                    placeholder=""
+                                />
+                                <label
+                                    for="search-form__input"
+                                    class="search-form__label-effect section__mini-desc"
+                                    >Your email address</label
+                                >
+                                <button
+                                    type="submit"
+                                    class="search-form__btn btn purple-btn"
+                                >
+                                    Get Started
+                                </button>
+                            </div>
+
+                            <label for="" class="search-form__desc"
+                                >*We’ll respect the inbox and never share your
+                                email.</label
+                            >
+                        </form>
+                    </section>
+                    <!-- Hero Media -->
+                    <div class="hero__media">
+                        <!-- Hero phone -->
+                        <section class="hero-phone">
+                            <div class="hero-phone__top"></div>
+                            <img
+                                src="./assets/img/Card.svg"
+                                alt=""
+                                class="hero-phone__card"
+                            />
+                            <div class="hero-phone__row">
+                                <p class="hero-phone__title">Transections</p>
+                                <img
+                                    src="./assets/img/phone-mini-icon-1.svg"
+                                    alt=""
+                                    class="hero-phone__mini-icon"
+                                />
+                            </div>
+                            <ul class="hero-phone__list">
+                                <li class="hero-phone__item">
+                                    <div class="hero-phone__icon-wrap">
+                                        <img
+                                            src="./assets/img/phone-icon-1.svg"
+                                            alt=""
+                                            class="hero-phone__icon"
+                                        />
+                                    </div>
+                                    <section class="hero-phone__info">
+                                        <h4 class="hero-phone__name">
+                                            Received Money
+                                        </h4>
+                                        <p class="hero-phone__desc">
+                                            email@gmail.com
+                                        </p>
+                                    </section>
+                                    <section class="hero-phone__transactions">
+                                        <p class="hero-phone__name">+$1,600</p>
+                                        <p class="hero-phone__desc">Sep 23</p>
+                                    </section>
+                                </li>
+                                <li class="hero-phone__item">
+                                    <div class="hero-phone__icon-wrap">
+                                        <img
+                                            src="./assets/img/phone-icon-2.svg"
+                                            alt=""
+                                            class="hero-phone__icon"
+                                        />
+                                    </div>
+                                    <section class="hero-phone__info">
+                                        <h4 class="hero-phone__name">
+                                            Send Money
+                                        </h4>
+                                        <p class="hero-phone__desc">
+                                            Airbnb Payment
+                                        </p>
+                                    </section>
+                                    <section class="hero-phone__transactions">
+                                        <p class="hero-phone__name">- $600</p>
+                                        <p class="hero-phone__desc">Sep 23</p>
+                                    </section>
+                                </li>
+                                <li class="hero-phone__item">
+                                    <div class="hero-phone__icon-wrap">
+                                        <img
+                                            src="./assets/img/phone-icon-3.svg"
+                                            alt=""
+                                            class="hero-phone__icon"
+                                        />
+                                    </div>
+                                    <section class="hero-phone__info">
+                                        <h4 class="hero-phone__name">
+                                            Received Money
+                                        </h4>
+                                        <p class="hero-phone__desc">
+                                            Upwork Earning
+                                        </p>
+                                    </section>
+                                    <section class="hero-phone__transactions">
+                                        <p class="hero-phone__name">+$1,600</p>
+                                        <p class="hero-phone__desc">Sep 23</p>
+                                    </section>
+                                </li>
+                                <li class="hero-phone__item">
+                                    <div class="hero-phone__icon-wrap">
+                                        <img
+                                            src="./assets/img/phone-icon-4.svg"
+                                            alt=""
+                                            class="hero-phone__icon"
+                                        />
+                                    </div>
+                                    <section class="hero-phone__info">
+                                        <h4 class="hero-phone__name">
+                                            Pay Bill
+                                        </h4>
+                                        <p class="hero-phone__desc">
+                                            Electricity Bill
+                                        </p>
+                                    </section>
+                                    <section class="hero-phone__transactions">
+                                        <p class="hero-phone__name">- $600</p>
+                                        <p class="hero-phone__desc">Sep 23</p>
+                                    </section>
+                                </li>
+                            </ul>
+                            <!-- Hero deposit -->
+                            <section class="hero-phone__deposit">
+                                <a href="#!" class="hero-phone__link"
+                                    ><img
+                                        src="./assets/img/phone-deposit.svg"
+                                        alt=""
+                                        class="hero-phone__download"
+                                /></a>
+                                <p class="hero-phone__name">Deposite</p>
+                                <p class="hero-phone__money">$32000</p>
+                            </section>
+                            <!-- Hero Funds -->
+                            <section class="hero-phone__funds">
+                                <img
+                                    src="./assets/img/phone-dollar.svg"
+                                    alt=""
+                                    class="hero-phone__fund-img"
+                                />
+                                <section class="hero-phone__fund-info">
+                                    <p
+                                        class="hero-phone__name hero-phone__fund-name"
+                                    >
+                                        $1.310
+                                    </p>
+                                    <p class="hero-phone__fund-desc">
+                                        SECURED FUNDS
+                                    </p>
+                                </section>
+                            </section>
+                        </section>
+                        <!-- Hero satisfaction -->
+                        <div class="hero__satisfaction">
+                            <p class="hero__percent">100%</p>
+                            <p class="hero__interest">Interest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main -->
+        <main class="main">
+            <!-- About  -->
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <!-- About media -->
+                        <div class="about__media">
+                            <img
+                                src="./assets/img/about-man.svg"
+                                alt=""
+                                class="about__man-img"
+                            />
+                            <img
+                                src="./assets/img/about-icon-1.svg"
+                                alt=""
+                                class="about__bank-icon"
+                            />
+                            <div class="about__active">
+                                <img
+                                    src="./assets/img/about-icon-2.svg"
+                                    alt=""
+                                    class="about__active-icon"
+                                />
+                                <div class="about__active-info">
+                                    <h4 class="about__active-title">
+                                        Congratulations
+                                    </h4>
+                                    <p class="about__active-desc">
+                                        Your account activated
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- About content -->
+                        <section class="about__content">
+                            <p class="about__name section__mini-desc">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="about__heading section__title">
+                                How It Works
+                            </h2>
+                            <div class="about__info-list">
+                                <!-- 1 -->
+                                <div class="about__info-item">
+                                    <h3 class="about__info-heading">
+                                        1. Open a High Interest Checking account
+                                    </h3>
+                                    <p
+                                        class="section__mini-desc about__info-desc"
+                                    >
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </div>
+                                <!-- 2 -->
+                                <div class="about__info-item">
+                                    <h3 class="about__info-heading">
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h3>
+                                    <p
+                                        class="section__mini-desc about__info-desc"
+                                    >
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </div>
+                                <!-- 3 -->
+                                <div class="about__info-item">
+                                    <h3 class="about__info-heading">
+                                        3. Receive up to 5.50% APY
+                                    </h3>
+                                    <p
+                                        class="section__mini-desc about__info-desc"
+                                    >
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- About content -->
+                        <section class="about__content">
+                            <p class="about__name section__mini-desc">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="about__heading section__title">
+                                One Card For All Your Payments
+                            </h2>
+                            <p class="about__desc section__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <ul class="about__list">
+                                <li class="about__list-item">
+                                    Global Payments
+                                </li>
+                                <li class="about__list-item">
+                                    One-Click Purchase
+                                </li>
+                                <li class="about__list-item">Friendly Price</li>
+                            </ul>
+                            <a href="#!" class="btn about__btn btn--trans"
+                                ><span>Get Started</span></a
+                            >
+                        </section>
+                        <!-- About media -->
+                        <div class="about__media">
+                            <img
+                                src="./assets/img/large-card.svg"
+                                alt=""
+                                class="about__card"
+                            />
+                            <!--  -->
+                            <div class="about__funds">
+                                <div class="about__funds-icon-wrap">
+                                    <img
+                                        src="./assets/img/about-plane.svg"
+                                        alt=""
+                                        class="about__funds-icon"
+                                    />
+                                </div>
+                                <section class="about__funds-info">
+                                    <h4 class="about__funds-name">
+                                        Send Money
+                                    </h4>
+                                    <p class="about__funds-desc">
+                                        Airbnb Payment
+                                    </p>
+                                </section>
+                                <section class="about__funds-transactions">
+                                    <p class="about__funds-name">- $600</p>
+                                    <p class="about__funds-desc">Sep 23</p>
+                                </section>
+                            </div>
+                            <!--  -->
+                            <div class="about__income">
+                                <img
+                                    src="./assets/img/about-hand.svg"
+                                    alt=""
+                                    class="about__income-icon"
+                                />
+                                <p class="about__income-desc">Income</p>
+                                <p class="about__income-strong">#439F90</p>
+                            </div>
+                        </div>
+
+                        <!-- About media -->
+                        <div class="about__media">
+                            <img
+                                src="./assets/img/about-girl.svg"
+                                alt=""
+                                class="about__girl-img"
+                            />
+                            <img
+                                src="./assets/img/about-payment.svg"
+                                alt=""
+                                class="about__payment-card"
+                            />
+                            <img
+                                src="./assets/img/about-money.svg"
+                                alt=""
+                                class="about__money-icon"
+                            />
+                        </div>
+                        <!-- About content -->
+                        <section class="about__content">
+                            <p class="about__name section__mini-desc">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="about__heading section__title">
+                                Transfer and Deposite Your Money Anytime
+                            </h2>
+                            <p class="about__desc section__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <ul class="about__list">
+                                <li class="about__list-item">Powerfull App</li>
+                                <li class="about__list-item">
+                                    Transparency And Speed
+                                </li>
+                                <li class="about__list-item">
+                                    Multiple Use Capabilities
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn about__btn btn--trans"
+                                ><span>Get Started</span></a
+                            >
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
